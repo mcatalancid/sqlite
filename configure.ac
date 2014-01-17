@@ -26,6 +26,7 @@ AC_PROG_MKDIR_P
 
 LT_INIT
 
+
 # Check for library functions that SQLite can optionally use.
 AC_CHECK_FUNCS([fdatasync usleep fullfsync localtime_r gmtime_r])
 AC_FUNC_STRERROR_R
